@@ -1,3 +1,5 @@
 #!/bin/bash
-tail -l iacta >> iacta
+# Read the last line of the file and append it to the file
+tail -n 1 iacta >> iacta
+
 
